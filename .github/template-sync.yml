@@ -1,6 +1,6 @@
 ---
 additional:
-- relationship
+- template-docker
 
 files:
 - '!README.md'
