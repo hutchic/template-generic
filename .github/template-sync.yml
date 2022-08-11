@@ -8,3 +8,4 @@ files:
 - '!.github/pull.yml'
 - '!.github/template-sync.yml'
 - '!.github/workflows/pre-commit-update.yml'
+- '!.github/settings.yml'
