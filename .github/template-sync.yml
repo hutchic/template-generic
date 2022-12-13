@@ -1,7 +1,6 @@
 ---
 additional:
-- template-docker
-- template-github-release
+- relationship
 
 files:
 - '!README.md'
