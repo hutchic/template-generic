@@ -10,6 +10,6 @@ files:
 - '!.yamllint'
 - '!.secrets.baseline'
 - '!.github/pull.yml'
-- '!.github/template-sync.yml'
+- '!.github/dependabot.yml'
 - '!.github/workflows/pre-commit-update.yml'
 - '!.github/settings.yml'
