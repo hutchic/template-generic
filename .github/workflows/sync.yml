@@ -7,27 +7,7 @@ on: # yamllint disable-line rule:truthy
     branches: main
 
 jobs:
-  metadata:
-
-    runs-on: ubuntu-latest
-
-    outputs:
-      repository: ${{ steps.metadata.outputs.repository }}
-      dockerfile: ${{ steps.dockerfile.outputs.exists }}
-
-    steps:
-    - uses: actions/checkout@v3.2.0
-
-    - id: metadata
-      uses: ahmadnassri/action-metadata@v2
-
   sync:
-
-    needs:
-    - metadata
-
-    # only runs on main branch and only for the template
-    if: ${{ fromJSON(needs.metadata.outputs.repository).is_template }} and ${{ github.actor != 'pull[bot]' }}
     runs-on: ubuntu-latest
 
     steps:
