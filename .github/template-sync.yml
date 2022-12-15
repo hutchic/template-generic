@@ -11,5 +11,6 @@ files:
 - '!.secrets.baseline'
 - '!.github/pull.yml'
 - '!.github/dependabot.yml'
+- '!.github/template-sync.yml'
 - '!.github/workflows/pre-commit-update.yml'
 - '!.github/settings.yml'
