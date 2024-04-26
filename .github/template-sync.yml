@@ -2,6 +2,8 @@
 additional:
 - template-docker
 - template-github-release
+- template-php
+- template-python
 
 files:
 - '!README.md'
@@ -14,3 +16,6 @@ files:
 - '!.github/template-sync.yml'
 - '!.github/workflows/pre-commit-update.yml'
 - '!.github/settings.yml'
+- '!.github/labeler.yml'
+- '!.github/workflows/pre-commit.yml'
+- '!.github/workflows/sync.yml'
