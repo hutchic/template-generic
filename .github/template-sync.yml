@@ -4,6 +4,7 @@ additional:
 - template-github-release
 - template-php
 - template-python
+- template-terraform
 
 files:
 - '!README.md'
